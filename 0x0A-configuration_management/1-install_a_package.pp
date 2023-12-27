@@ -1,9 +1,5 @@
-#Create a file in `/tmp/school`
-
-file {'/tmp/school':
-ensure  => present,
-content => 'I love Puppet',
-group   => 'www-data',
-owner   => 'www-data',
-mode    => '0744',
+# (flask 2.1.0 installation package)
+package { 'flask':
+  ensure   => '2.1.0',
+  provider => 'pip3'
 }
