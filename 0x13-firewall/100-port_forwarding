@@ -1,5 +1,3 @@
-#/usr/bin/env bash
-
 #forward from port 8080 to port 80
 *nat
 :PREROUTING ACCEPT [0:0]

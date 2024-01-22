@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Checkes if a user is a root or not
+
+su $1
+whoami
