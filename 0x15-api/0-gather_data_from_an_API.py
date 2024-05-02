@@ -22,4 +22,4 @@ for i in API_data:
             completed.append(i["title"])
 print("Employee {} is done with tasks({}/{}):".format(employee, completed_task, tasks))
 for i in completed:
-    print(" "*4 + i)
+    print("\t {}".format(i))
